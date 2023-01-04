@@ -1,4 +1,4 @@
-package com.lkp.study.perpson;
+package com.lkp.study.person;
 
 public class Person {
     public String name;
@@ -34,5 +34,9 @@ public class Person {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public void eat() {
+        System.out.printf("person eat!");
     }
 }
