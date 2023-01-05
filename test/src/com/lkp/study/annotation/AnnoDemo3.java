@@ -1,7 +1,7 @@
 package com.lkp.study.annotation;
 
 public class AnnoDemo3 {
-    @MyAnno
+//    @MyAnno
     public void testAnno() {
 
     }
